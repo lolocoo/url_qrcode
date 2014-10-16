@@ -1,0 +1,14 @@
+{ 
+  "name":"URL QRcode", 
+  "version":"1.0", 
+  "manifest_version":2, 
+  "description":"lolocoo's url qrcode.", 
+  "browser_action":{ 
+    "default_icon":"icon.png",
+    "default_popup": "popup.html"
+  }, 
+  "permissions":[ 
+    "http://dwz.cn/create.php",
+    "tabs"
+  ] 
+}
